@@ -79,11 +79,29 @@ else
 end
 #numberが3の倍数であり、かつ5の倍数である場合は「15の倍数です」と表示される
 
-name = ["naho", "yuki", "sakura]
-puts name[0]
-#nameという配列の0番目の要素を表示する
-
+names = ["naho", "yuki", "sakura"]
+puts names[0]
+#namesという配列の0番目の要素を表示する
 names.each do |name|
     puts "My name is #{name}"
 end
+
 #eachは配列の要素を順番に取り出して処理するためのメソッドで、|name|の部分はブロック引数と呼ばれ、eachが配列から取り出した要素が順番に代入される
+
+languages = ["日本語", "英語", "スペイン語"]
+nationals = ["日本人", "アメリカ人", "スペイン人"]
+border = "---------------------"
+
+languages.each do |language|
+nationals.each do |national|
+    puts language
+    puts national
+    puts border
+end
+end
+
+exam = { name: "naho", score: 100 }
+puts exam
+#examというハッシュを定義し、nameというキーにnahoという値を、scoreというキーに100という値を割り当てる
+
+
