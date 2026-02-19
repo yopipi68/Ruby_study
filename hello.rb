@@ -77,4 +77,13 @@ if number%3 == 0 && number%5 == 0
 else
   puts "3の倍数でも5の倍数でもありません"
 end
-#numberが3の倍数であり、かつ5の倍数である場合は「15の倍数です」と表示されます。
+#numberが3の倍数であり、かつ5の倍数である場合は「15の倍数です」と表示される
+
+name = ["naho", "yuki", "sakura]
+puts name[0]
+#nameという配列の0番目の要素を表示する
+
+names.each do |name|
+    puts "My name is #{name}"
+end
+#eachは配列の要素を順番に取り出して処理するためのメソッドで、|name|の部分はブロック引数と呼ばれ、eachが配列から取り出した要素が順番に代入される
